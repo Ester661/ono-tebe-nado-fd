@@ -294,12 +294,8 @@ text-decoration: none;
   list-style-type: none;
 }
 
-.footer__social-list-item {
-  height: 48px;
-}
-
 .footer_icon {
-  margin-left: 85px ;
+  margin-left: 85px;
   margin-right: 48px;
 }
 
