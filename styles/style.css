@@ -295,10 +295,7 @@ text-decoration: none;
 }
 
 .footer__social-list-item {
-  width: 48px;
   height: 48px;
-  border-radius: 50%;
-  border: 1px solid #000;
 }
 
 .footer_icon {
@@ -315,17 +312,3 @@ text-decoration: none;
   justify-content: center;
 }
 
-.footer_icon_youtube {
-  margin-top: 13px;
-  height: 20px;
-}
-
-.footer_icon_vk {
-  margin-top: 14px;
-  height: 18px;
-}
-
-.footer_icon_pinterest {
-  margin-top: 13px;
-  height: 22px;
-}
