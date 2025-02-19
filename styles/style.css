@@ -292,15 +292,11 @@ text-decoration: none;
   position:relative;
   display: flex;
   list-style-type: none;
+  gap: 48px;
 }
 
 .footer_icon {
   margin-left: 85px;
-  margin-right: 48px;
-}
-
-.footer_icon1 {
-  margin-right: 48px;
 }
 
 .footer__social-icon {
