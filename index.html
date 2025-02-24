@@ -6,33 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
     <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
     <header class="header">
       <nav class="header__menu">
-        <ul class="header__links-list">
-          <!-- ссылки -->
-          <li class="header__links-list-item_no-bullet">
-            <a class="header__link_active">главная</a>
-          </li>
-          <li class="header__links-list-item">
-            <a class="header__link" href="#0">посмотреть лоты</a>
-          </li>
-          <li class="header__links-list-item">
-            <a class="header__link" href="#0">об аукционе</a>
+        <ul class="header__links-list"> <!-- ссылки -->
+          <li class="header__links-list-item_no-bullet"> 
+            <a class="header__link_active">главная</a> 
+          </li> 
+          <li class="header__links-list-item"> 
+            <a class="header__link" href="#0">посмотреть лоты</a> 
+          </li> 
+          <li class="header__links-list-item"> 
+            <a class="header__link" href="#0">об аукционе</a> 
           </li>
         </ul>
       </nav>
-      <section class="header__logo">
+      <a class="header__logo" href="#0">
         <!-- Лого-->
         <img
           class="header__logo-image"
           src="images/logo-black.svg"
           alt="Логотип"
         />
-      </section>
+      </a>
       <address class="address address_header">
         <a href="tel:+99995555555">+9 999 555 5555</a><br />
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
@@ -70,23 +69,23 @@
         </h1>
         <div class="cover__description">
           <!-- Подзаголовок и кнопка -->
-          <span class="cover__description-text"
-            >АУKЦИОН ВЕЩЕЙ, В КОТОРЫЕ НИКТО НЕ ВЕРИЛ</span
+          <p class="cover__description-text"
+            >АУKЦИОН ВЕЩЕЙ, В КОТОРЫЕ НИКТО НЕ ВЕРИЛ</p
           >
-          <span class="bet-button">СДЕЛАТЬ СТАВКУ</span>
+          <p class="bet-button">СДЕЛАТЬ СТАВКУ</p>
         </div>
       </section>
       <section class="lots">
         <!-- Секция с карточками-->
-        <h2 class="lots__heading">ЛОТЫ</h2>
+        <div class="lots__heading">ЛОТЫ</div>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
             <article class="card card_type_film">
               <div class="overlay"></div>
               <a href="#0" class="card-link card__title"
-                >Фильм режиссёра, который бросил киношколу</a
+                ><h2>Фильм режиссёра, который бросил киношколу</a></h2>
               >
-              <p class="card__text">
+              <p class= "card__text card_1">
                 Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                 ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
               </p>
@@ -96,10 +95,10 @@
             <article class="card card_type_book">
               <div class="overlay"></div>
               <a href="#0" class="card-link card__title"
-                >Книга, где описан один скучный день из жизни рекламного
+                ><h2>Книга, где описан один скучный день из жизни рекламного
                 агента</a
-              >
-              <p class="card__text">
+              ></h2>
+              <p class="card__text card_2">
                 Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
                 переходами на древнеанглийский. В ней одновременно
                 рассказывается о 16 июня 1904 года и об истории литературы,
@@ -113,9 +112,9 @@
             <article class="card card_type_picture">
               <div class="overlay"></div>
               <a href="#0" class="card-link card__title"
-                >Картина, которую повторит даже 5-летний сын маминой подруги</a
-              >
-              <p class="card__text">
+                ><h2>Картина, которую повторит даже 5-летний сын маминой подруги</a
+              ></h2>
+              <p class="card__text card_3">
                 Ну действительно, там линия, тут кружочек, а здесь и вовсе
                 что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
                 котиков... Сколько бы вы на такое поставили, если бы не знали,
@@ -162,7 +161,7 @@
       <address class="address">
         <a href="tel:+99995555555">+9 999 555 5555</a><br />
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <p class="header__address">наб. Принсенграхт 263-265, Амстердам</p>
+        <p class="footer__address">наб. Принсенграхт 263-265, Амстердам</p>
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
